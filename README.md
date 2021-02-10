@@ -1,16 +1,15 @@
 ### Hi there 👋
 
-<!--
-**desicurry/desicurry** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+mport SoftwareDeveloper from 'desicurry';
 
-Here are some ideas to get you started:
+class Bio extends SoftwareDeveloper {
+  name     = 'Desi Curry';
+  title    = 'Software Engineer';
+  location = 'Elizabeth City, NC';
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Skills extends SoftwareDeveloper {
+  languages  = ['JavaScript', 'Pythn'];
+  databases  = ['MySQL', 'AWS', 'PostgreSQL'];
+  frameworks = ['React', 'React Native'];
+}
