@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-mport SoftwareDeveloper from 'desicurry';
+import SoftwareDeveloper from 'desicurry';
 
 class Bio extends SoftwareDeveloper {
   name     = 'Desi Curry';
